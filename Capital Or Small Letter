@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cin>>ch;
+    
+    if(ch>=65 && ch<=90) cout<<"ALPHA\nIS CAPITAL";
+    else if(ch>=97 && ch<=122) cout<<"ALPHA\nIS SMALL";
+    else cout<<"IS DIGIT";
+}
